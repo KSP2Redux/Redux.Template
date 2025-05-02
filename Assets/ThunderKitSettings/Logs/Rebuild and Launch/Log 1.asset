@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f9af1c6015733a42be940cc462aa7ed, type: 3}
+  m_Name: Log 1
+  m_EditorClassIdentifier: 
+  pipeline: {fileID: 11400000, guid: ed26388303653f5419f1d41d16a5b016, type: 2}
+  creationDate:
+    ticks: 638816610762659821
+  entries:
+  - logLevel: 2
+    internalTime:
+      ticks: 638816610787566080
+    message: "[Rebuild and Launch(1 - ExecutePipeline)](assetlink://Assets%2fRebuild+and+Launch.asset)[Default-BepInEx](assetlink://Assets%2fDefault-BepInEx.asset)
+      ``` <BepInExPackSource> ``` to ``` <BepInExPackDestination> ```\r\n\r\n Failed
+      to resolve source when source is required"
+    context:
+    - "Stacktrace\r\n``` <BepInExPackSource> ``` to ``` <BepInExPackDestination>
+      ```\r\n\r\n Failed to resolve source when source is required\r\n\r\n  at ThunderKit.Core.Pipelines.Jobs.Copy.ResolveSource
+      (ThunderKit.Core.Pipelines.Pipeline pipeline) [0x00019] in [.\\Library\\PackageCache\\com.passivepicasso.thunderkit@e07c3b7ad1\\Editor\\Core\\Pipelines\\Jobs\\Copy.cs:127](exceptionsource://.\\Library\\PackageCache\\com.passivepicasso.thunderkit@e07c3b7ad1\\Editor\\Core\\Pipelines\\Jobs\\Copy.cs#127)
+      \r\n\r\n  at ThunderKit.Core.Pipelines.Jobs.Copy.ExecuteInternal (ThunderKit.Core.Pipelines.Pipeline
+      pipeline) [0x0003b] in [.\\Library\\PackageCache\\com.passivepicasso.thunderkit@e07c3b7ad1\\Editor\\Core\\Pipelines\\Jobs\\Copy.cs:42](exceptionsource://.\\Library\\PackageCache\\com.passivepicasso.thunderkit@e07c3b7ad1\\Editor\\Core\\Pipelines\\Jobs\\Copy.cs#42)
+      \r\n\r\n  at ThunderKit.Core.Pipelines.FlowPipelineJob.Execute (ThunderKit.Core.Pipelines.Pipeline
+      pipeline) [0x0011c] in [.\\Library\\PackageCache\\com.passivepicasso.thunderkit@e07c3b7ad1\\Editor\\Core\\Pipelines\\FlowPipelineJob.cs:39](exceptionsource://.\\Library\\PackageCache\\com.passivepicasso.thunderkit@e07c3b7ad1\\Editor\\Core\\Pipelines\\FlowPipelineJob.cs#39)
+      \r\n\r\n  at ThunderKit.Core.Pipelines.Pipeline.ExecuteJob () [0x00023] in
+      [.\\Library\\PackageCache\\com.passivepicasso.thunderkit@e07c3b7ad1\\Editor\\Core\\Pipelines\\Pipeline.cs:281](exceptionsource://.\\Library\\PackageCache\\com.passivepicasso.thunderkit@e07c3b7ad1\\Editor\\Core\\Pipelines\\Pipeline.cs#281)
+      \r\n\r\n  at ThunderKit.Core.Pipelines.Pipeline.Execute () [0x003b7] in [.\\Library\\PackageCache\\com.passivepicasso.thunderkit@e07c3b7ad1\\Editor\\Core\\Pipelines\\Pipeline.cs:240](exceptionsource://.\\Library\\PackageCache\\com.passivepicasso.thunderkit@e07c3b7ad1\\Editor\\Core\\Pipelines\\Pipeline.cs#240)
+      \r\n\r\n  at ThunderKit.Core.Pipelines.Jobs.ExecutePipeline.Execute (ThunderKit.Core.Pipelines.Pipeline
+      pipeline) [0x000d5] in [.\\Library\\PackageCache\\com.passivepicasso.thunderkit@e07c3b7ad1\\Editor\\Core\\Pipelines\\Jobs\\ExecutePipeline.cs:26](exceptionsource://.\\Library\\PackageCache\\com.passivepicasso.thunderkit@e07c3b7ad1\\Editor\\Core\\Pipelines\\Jobs\\ExecutePipeline.cs#26)
+      \r\n\r\n  at ThunderKit.Core.Pipelines.Pipeline.ExecuteJob () [0x00023] in
+      [.\\Library\\PackageCache\\com.passivepicasso.thunderkit@e07c3b7ad1\\Editor\\Core\\Pipelines\\Pipeline.cs:281](exceptionsource://.\\Library\\PackageCache\\com.passivepicasso.thunderkit@e07c3b7ad1\\Editor\\Core\\Pipelines\\Pipeline.cs#281)
+      \r\n\r\n  at ThunderKit.Core.Pipelines.Pipeline.Execute () [0x002e9] in [.\\Library\\PackageCache\\com.passivepicasso.thunderkit@e07c3b7ad1\\Editor\\Core\\Pipelines\\Pipeline.cs:227](exceptionsource://.\\Library\\PackageCache\\com.passivepicasso.thunderkit@e07c3b7ad1\\Editor\\Core\\Pipelines\\Pipeline.cs#227) "
+  - logLevel: 2
+    internalTime:
+      ticks: 638816610787380879
+    message: '[Rebuild and Launch(1 - ExecutePipeline)](assetlink://Assets%2fRebuild+and+Launch.asset)[Default-BepInEx](assetlink://Assets%2fDefault-BepInEx.asset)
+      [Deploy(0 - Copy)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fDeploy.asset)[Default-BepInEx](assetlink://Assets%2fDefault-BepInEx.asset)
+      [BepInExPackSource.FindDirectory:](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPathReferences%2fBepInExPackSource.asset)
+      Sequence contains no elements'
+    context:
+    - "Stacktrace\r\n[Deploy(0 - Copy)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fDeploy.asset)[Default-BepInEx](assetlink://Assets%2fDefault-BepInEx.asset)
+      [BepInExPackSource.FindDirectory:](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPathReferences%2fBepInExPackSource.asset)
+      Sequence contains no elements\r\n\r\n  at ThunderKit.Core.Paths.Components.FindDirectory.GetPathInternal
+      (ThunderKit.Core.Paths.PathReference output, ThunderKit.Core.Pipelines.Pipeline
+      pipeline) [0x00078] in [.\\Library\\PackageCache\\com.passivepicasso.thunderkit@e07c3b7ad1\\Editor\\Core\\Paths\\Components\\FindDirectory.cs:30](exceptionsource://.\\Library\\PackageCache\\com.passivepicasso.thunderkit@e07c3b7ad1\\Editor\\Core\\Paths\\Components\\FindDirectory.cs#30)
+      \r\n\r\n  at ThunderKit.Core.Paths.PathComponent.GetPath (ThunderKit.Core.Paths.PathReference
+      output, ThunderKit.Core.Pipelines.Pipeline pipeline) [0x00000] in [.\\Library\\PackageCache\\com.passivepicasso.thunderkit@e07c3b7ad1\\Editor\\Core\\Paths\\PathComponent.cs:7](exceptionsource://.\\Library\\PackageCache\\com.passivepicasso.thunderkit@e07c3b7ad1\\Editor\\Core\\Paths\\PathComponent.cs#7)
+      \r\n\r\n  at ThunderKit.Core.Paths.PathReference+<>c__DisplayClass9_0.<GetPath>b__0
+      (ThunderKit.Core.Paths.PathComponent pc) [0x00000] in [.\\Library\\PackageCache\\com.passivepicasso.thunderkit@e07c3b7ad1\\Editor\\Core\\Paths\\PathReference.cs:74](exceptionsource://.\\Library\\PackageCache\\com.passivepicasso.thunderkit@e07c3b7ad1\\Editor\\Core\\Paths\\PathReference.cs#74)
+      \r\n\r\n  at System.Linq.Enumerable+SelectEnumerableIterator`2[TSource,TResult].ToArray
+      () [0x0001d] in <de4a1a1490a74771a34fee0d1d586658>:0 \r\n\r\n  at System.Linq.Enumerable.ToArray[TSource]
+      (System.Collections.Generic.IEnumerable`1[T] source) [0x0001f] in <de4a1a1490a74771a34fee0d1d586658>:0
+      \r\n\r\n  at ThunderKit.Core.Paths.PathReference.GetPath (ThunderKit.Core.Pipelines.Pipeline
+      pipeline) [0x00014] in [.\\Library\\PackageCache\\com.passivepicasso.thunderkit@e07c3b7ad1\\Editor\\Core\\Paths\\PathReference.cs:74](exceptionsource://.\\Library\\PackageCache\\com.passivepicasso.thunderkit@e07c3b7ad1\\Editor\\Core\\Paths\\PathReference.cs#74)
+      \r\n\r\n  at ThunderKit.Core.Paths.PathReference.ResolvePath (System.String
+      input, ThunderKit.Core.Pipelines.Pipeline pipeline, UnityEngine.Object caller)
+      [0x0010f] in [.\\Library\\PackageCache\\com.passivepicasso.thunderkit@e07c3b7ad1\\Editor\\Core\\Paths\\PathReference.cs:60](exceptionsource://.\\Library\\PackageCache\\com.passivepicasso.thunderkit@e07c3b7ad1\\Editor\\Core\\Paths\\PathReference.cs#60)
+      \r\n\r\n  at ThunderKit.Core.Paths.PathReferenceExtensions.Resolve (System.String
+      input, ThunderKit.Core.Pipelines.Pipeline pipeline, UnityEngine.Object caller)
+      [0x00000] in [.\\Library\\PackageCache\\com.passivepicasso.thunderkit@e07c3b7ad1\\Editor\\Core\\Paths\\PathReferenceExtensions.cs:7](exceptionsource://.\\Library\\PackageCache\\com.passivepicasso.thunderkit@e07c3b7ad1\\Editor\\Core\\Paths\\PathReferenceExtensions.cs#7)
+      \r\n\r\n  at ThunderKit.Core.Pipelines.Jobs.Copy.ResolveSource (ThunderKit.Core.Pipelines.Pipeline
+      pipeline) [0x00000] in [.\\Library\\PackageCache\\com.passivepicasso.thunderkit@e07c3b7ad1\\Editor\\Core\\Pipelines\\Jobs\\Copy.cs:122](exceptionsource://.\\Library\\PackageCache\\com.passivepicasso.thunderkit@e07c3b7ad1\\Editor\\Core\\Pipelines\\Jobs\\Copy.cs#122) "
+  - logLevel: 3
+    internalTime:
+      ticks: 638816610786574865
+    message: '[Deploy(0 - Copy)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fDeploy.asset)[Default-BepInEx](assetlink://Assets%2fDefault-BepInEx.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638816610786524512
+    message: '[Deploy(0 - Copy)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fDeploy.asset)[Default-BepInEx](assetlink://Assets%2fDefault-BepInEx.asset)
+      Clearing PipelineJob error states'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638816610786458354
+    message: '[Deploy(0 - Copy)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fDeploy.asset)[Default-BepInEx](assetlink://Assets%2fDefault-BepInEx.asset)
+      Execute Pipeline'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638816610786398164
+    message: '[Rebuild and Launch(1 - ExecutePipeline)](assetlink://Assets%2fRebuild+and+Launch.asset)[Default-BepInEx](assetlink://Assets%2fDefault-BepInEx.asset)
+      Execute Job'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638816610785729581
+    message: '[Stage](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fStage.asset)
+      Finished execution'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638816610785676322
+    message: '[Stage(3 - StageManifestFiles)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fStage.asset)
+      Execute Job'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638816610785632762
+    message: '[Stage(2 - StageDependencies)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fStage.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638816610785582732
+    message: '[Stage(1 - StageAssemblies)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fStage.asset)[Default-BepInEx](assetlink://Assets%2fDefault-BepInEx.asset)
+      Build Completed: ``` ThunderKit/Libraries/TestMod.dll ```'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638816610783435752
+    message: '[Stage(1 - StageAssemblies)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fStage.asset)[Default-BepInEx](assetlink://Assets%2fDefault-BepInEx.asset)
+      staging ``` ThunderKit/Libraries ``` in ``` ThunderKit/Staging/B/plugins/B
+      ```
+
+'
+    context:
+    - "Assembly Files\r\nFrom: ThunderKit/Libraries\\TestMod.pdb\r\n  To: ThunderKit/Staging/B/plugins/B/TestMod.pdb\r\n\r\nFrom:
+      ThunderKit/Libraries\\TestMod.dll\r\n  To: ThunderKit/Staging/B/plugins/B/TestMod.dll\r\n\r\n"
+  - logLevel: 0
+    internalTime:
+      ticks: 638816610777072078
+    message: '[Stage(1 - StageAssemblies)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fStage.asset)[Default-BepInEx](assetlink://Assets%2fDefault-BepInEx.asset)
+      Building : ThunderKit/Libraries/TestMod.dll'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638816610770478138
+    message: '[Stage(1 - StageAssemblies)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fStage.asset)[Default-BepInEx](assetlink://Assets%2fDefault-BepInEx.asset)
+      Execute Job'
+    context: []
+  - logLevel: 1
+    internalTime:
+      ticks: 638816610770478138
+    message: '[Stage(0 - StageAssetBundles)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fStage.asset)[Default-BepInEx](assetlink://Assets%2fDefault-BepInEx.asset)
+      No valid AssetBundleDefinitions defined, skipping [StageAssetBundles](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fEditor%2fCore%2fPipelines%2fJobs%2fStageAssetBundles.cs)
+      PipelineJob'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638816610769056073
+    message: '[Stage(0 - StageAssetBundles)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fStage.asset)[Default-BepInEx](assetlink://Assets%2fDefault-BepInEx.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638816610769056073
+    message: '[Stage(0 - StageAssetBundles)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fStage.asset)[Default-BepInEx](assetlink://Assets%2fDefault-BepInEx.asset)
+      Clearing PipelineJob error states'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638816610769045996
+    message: '[Stage(0 - StageAssetBundles)](assetlink://Packages%2fcom.passivepicasso.thunderkit%2fTemplates%2fBepInEx%2fPipelines%2fStage.asset)[Default-BepInEx](assetlink://Assets%2fDefault-BepInEx.asset)
+      Execute Pipeline'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638816610769035779
+    message: '[Rebuild and Launch(0 - ExecutePipeline)](assetlink://Assets%2fRebuild+and+Launch.asset)[Default-BepInEx](assetlink://Assets%2fDefault-BepInEx.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638816610769025774
+    message: '[Rebuild and Launch(0 - ExecutePipeline)](assetlink://Assets%2fRebuild+and+Launch.asset)[Default-BepInEx](assetlink://Assets%2fDefault-BepInEx.asset)
+      Clearing PipelineJob error states'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638816610764672537
+    message: '[Rebuild and Launch(0 - ExecutePipeline)](assetlink://Assets%2fRebuild+and+Launch.asset)[Default-BepInEx](assetlink://Assets%2fDefault-BepInEx.asset)
+      Execute Pipeline'
+    context: []
