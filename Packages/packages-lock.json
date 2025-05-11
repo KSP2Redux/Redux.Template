@@ -10,13 +10,13 @@
       "hash": "eee1cb773e0dc5ee0bdf7eb4cd299ee463ea3368"
     },
     "com.passivepicasso.thunderkit": {
-      "version": "https://github.com/PassivePicasso/ThunderKit.git#9.1.0",
+      "version": "https://github.com/PassivePicasso/ThunderKit.git#9.1.1",
       "depth": 0,
       "source": "git",
       "dependencies": {
         "com.unity.scriptablebuildpipeline": "1.16.1"
       },
-      "hash": "450171d64287ebd49764e40a45dc2a2eaeebd053"
+      "hash": "574342edeb55250cda0c75789f6969c8b748f4cd"
     },
     "com.unity.addressables": {
       "version": "1.21.21",
@@ -142,9 +142,25 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.memoryprofiler": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.editorcoroutines": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.nuget.mono-cecil": {
       "version": "1.11.4",
       "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "3.2.1",
+      "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -154,15 +170,6 @@
       "depth": 1,
       "source": "registry",
       "dependencies": {},
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.postprocessing": {
-      "version": "3.2.2",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.modules.physics": "1.0.0"
-      },
       "url": "https://packages.unity.com"
     },
     "com.unity.profiling.core": {
@@ -272,6 +279,15 @@
       "depth": 0,
       "source": "embedded",
       "dependencies": {}
+    },
+    "ksp2community.ksp2unitytools": {
+      "version": "https://github.com/foonix/KSP2UnityTools.git#feature/run_redux_in_editor",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.addressables": "1.21.18"
+      },
+      "hash": "09f5ae3c092b697d45cda6063c4c990055893139"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
