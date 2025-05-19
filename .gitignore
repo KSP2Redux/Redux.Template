@@ -80,3 +80,8 @@ crashlytics-build.properties
 /ThunderKit/Libraries
 
 /.idea
+
+Assets/DoNotDistribute
+Redux/
+Assets/ThunderKitSettings/Logs
+*.resS
