@@ -1,7 +1,7 @@
 # KSP2 Redux Mod Template
 
 ## Running the game in Unity
-- Download the project files
+- Download the project files.
 - Add the project to Unity Hub, and open in Unity 2022.3.5f1.
 - when prompted to enter safe mode, click `Ignore` (exit safe mode if you clicked enter safe mode).
 - In the ThunderKit settings window, select your game's `KSP2_x64.exe` file and click `Import.`  Note: this must be a Redux-patched install of the game.
