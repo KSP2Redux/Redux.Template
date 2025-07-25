@@ -85,3 +85,13 @@ Assets/DoNotDistribute
 Redux/
 Assets/ThunderKitSettings/Logs
 *.resS
+
+Assets/StreamingAssets
+pm_cache
+disabled_plugins.cfg
+mod_list_hash.txt
+redux.log.old
+redux.log
+Deploy/
+Assets/Mods/__Testing
+Assets/Mods/__Testing.meta
