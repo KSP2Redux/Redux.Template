@@ -172,6 +172,14 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.postprocessing": {
+      "version": "file:com.unity.postprocessing@3.2.2",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.modules.physics": "1.0.0"
+      }
+    },
     "com.unity.profiling.core": {
       "version": "1.0.2",
       "depth": 1,
@@ -281,13 +289,13 @@
       "dependencies": {}
     },
     "ksp2community.ksp2unitytools": {
-      "version": "https://github.com/foonix/KSP2UnityTools.git#feature/run_redux_in_editor",
+      "version": "https://github.com/KSP2Community/KSP2UnityTools.git#dev",
       "depth": 0,
       "source": "git",
       "dependencies": {
         "com.unity.addressables": "1.21.18"
       },
-      "hash": "09f5ae3c092b697d45cda6063c4c990055893139"
+      "hash": "080d357d19357ea7f23275dcc5c8545c8dc94ace"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
