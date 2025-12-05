@@ -1,7 +1,9 @@
 {
     "name": "Redux.Template.Utilities",
     "rootNamespace": "",
-    "references": [],
+    "references": [
+        "ThunderKit.Core"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [
         "Android",
