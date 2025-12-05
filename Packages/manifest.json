@@ -2,7 +2,6 @@
   "dependencies": {
     "com.passivepicasso.bundlekit": "https://github.com/foonix/BundleKit.git#0.0.1",
     "com.passivepicasso.thunderkit": "https://github.com/PassivePicasso/ThunderKit.git#9.1.1",
-    "org.foonix.generalimportextensions": "https://github.com/foonix/GeneralImportExtensions.git#master",
     "com.unity.addressables": "1.21.21",
     "com.unity.burst": "1.8.19",
     "com.unity.collections": "2.2.1",
