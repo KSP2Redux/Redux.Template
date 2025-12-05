@@ -95,3 +95,4 @@ redux.log
 Deploy/
 Assets/Mods/__Testing
 Assets/Mods/__Testing.meta
+Packages/packages-lock.json
