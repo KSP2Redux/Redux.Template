@@ -2,30 +2,31 @@
     "name": "Redux.Template.Utilities",
     "rootNamespace": "",
     "references": [
-        "ThunderKit.Core"
+        "ThunderKit.Core",
+        "Unity.Addressables",
+        "Unity.Addressables.Editor"
     ],
     "includePlatforms": [],
     "excludePlatforms": [
         "Android",
         "EmbeddedLinux",
-        "GameCoreScarlett",
-        "GameCoreXboxOne",
         "iOS",
         "LinuxStandalone64",
         "CloudRendering",
         "macOSStandalone",
+        "Switch",
         "PS4",
         "PS5",
         "QNX",
-        "Stadia",
-        "Switch",
         "tvOS",
         "WSA",
         "VisionOS",
         "WebGL",
         "WindowsStandalone32",
         "WindowsStandalone64",
-        "XboxOne"
+        "GameCoreXboxOne",
+        "XboxOne",
+        "GameCoreScarlett"
     ],
     "allowUnsafeCode": false,
     "overrideReferences": false,
